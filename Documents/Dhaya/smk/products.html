@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK POLYSEAL</title>
+    <link rel="icon" href="img/logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <!--font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <!-- Header Section -->
+ <header>
+    <div class="logo">
+        <img src="img/logo.jpeg" alt="SMK POLYSEAL">
+        <h1>SMK POLYSEAL</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="products">
+    <h2>OUR PRODUCTS</h2>
+    <div class="product-grid">
+<!-- Induction Sealing Wads -->
+<div class="product" id="product1">
+    <img src="img/induction_wad.jpg" alt="Induction Sealing Wads">
+    <h2>Induction Sealing Wads</h2>
+    <p>High-quality and thick aluminium foil material for packaging.</p>
+    <form onsubmit="sendWhatsApp('Induction Sealing Wad', 'quantity1'); return false;">
+        <label for="quantity1">Quantity:</label>
+        <input type="number" id="quantity1" name="quantity1" placeholder="Enter Quantity" min="1" required>
+        <br>
+        <button type="submit">Order Now</button>
+    </form>
+</div>
+
+<!-- EPE Wads -->
+<div class="product" id="product2">
+    <img src="img/ep_wad.jpg" alt="EPE Wads">
+    <h2>EPE Wads</h2>
+    <p>Simple materials for air-tight seals and compatible, soft and thin </p>
+    <form onsubmit="sendWhatsApp('EPE Wads', 'quantity2'); return false;">
+        <label for="quantity2">Quantity:</label>
+        <input type="number" id="quantity2" name="quantity2" placeholder="Enter Quantity" min="1" required>
+        <br>
+        <button type="submit">Order Now</button>
+    </form>
+</div>
+
+<!-- Blister Foil Wads -->
+<div class="product" id="product3">
+    <img src="img/blister_foil.webp" alt="Blister Foil Wads">
+    <h2>Blister Foil Wads</h2>
+    <p>Ideal for air-tight seals on tablets and medicine packaging</p>
+    <form onsubmit="sendWhatsApp('Blister Foil Wads', 'quantity3'); return false;">
+        <label for="quantity3">Quantity:</label>
+        <input type="number" id="quantity3" name="quantity3" placeholder="Enter Quantity" min="1" required>
+        <br>
+        <button type="submit">Order Now</button>
+    </form>
+</div>
+
+<!-- Aluminium Foil -->
+<div class="product" id="product4">
+    <img src="img/aluminum-foil-discs.webp" alt="Aluminium Foil">
+    <h2>Aluminium Foil Disc</h2>
+    <p>High-quality and thick aluminium foil disc material</p>
+    <form onsubmit="sendWhatsApp('Aluminium Foil Disc', 'quantity4'); return false;">
+        <label for="quantity4">Quantity:</label>
+        <input type="number" id="quantity4" name="quantity4" placeholder="Enter Quantity" min="1" required>
+        <br>
+        <button type="submit">Order Now</button>
+    </form>
+</div>
+</div>
+</section>
+<!--footer-->
+<footer>
+    <h3>Company Located</h3>
+    <p>No.23,Pulikuththi village, Anjaneyarpuram,Morai-2,Avadi,Chennai-600055</p>
+    <p>&copy; 2018 SMK POLYSEAL. All Rights Reserved.</p>
+</footer>
+
+
+<script src="product.js"></script>
+
+</body>
+</html>
