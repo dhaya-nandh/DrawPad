@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h3{
+    color:rgb(233, 104, 18);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 40%;
+    font-size: 30px;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    margin: 50px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    gap:10px;
+}
+
+.container img{
+   width: 10%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+   border:2px solid white;
+   transition: all ease-in-out 0.5s;
+}
+.container img#itachi:hover{
+    width: 25%;
+    border:2px solid red;
+}
+.container img#hinata:hover{
+    width: 25%;
+    border:2px solid green;
+}
+.container img#jiraya:hover{
+    width: 25%;
+    border:2px solid orange;
+}
+.container img#madhara:hover{
+    width: 25%;
+    border:2px solid blue;
+}
+.container img#minato:hover{
+    width: 25%;
+    border:2px solid yellow;
+}
+.container img#obito:hover{
+    width: 25%;
+    border:2px solid olive;
+}
+.container img#kakashi:hover{
+    width: 25%;
+    border:2px solid rgb(39, 121, 197);
+}
