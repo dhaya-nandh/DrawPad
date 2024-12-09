@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: skyblue;
+}
+.clouds {
+    height:100px;
+    display:flex;
+    align-items: center;
+    position: fixed;    
+}
+.clouds img{
+    width:100%;
+}
+.plane{
+    width: 100%;
+    height:100px;
+    position: fixed;
+    transform: translateX(0%);
+    animation: anim 30s infinite;
+}
+.plane img{
+    width: 300px;
+    height:90px;
+    
+   
+}
+@keyframes anim {
+    
+    100%{
+        transform: translateX(100%);
+    }
+
+    
+}
+
+.land img{
+    width:100%;
+    height:400px;
+    margin-top:25%;
+    position: fixed;
+}
