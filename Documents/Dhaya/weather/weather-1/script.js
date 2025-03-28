@@ -1,2 +1,0 @@
-//const apiKey = "f7cff86ae350859a2650e8148bec39df"; // Replace with your OpenWeatherMap API key
-//const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
